@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>log in form</title>
+    <style>
+        body{
+            background-color: lightseagreen;
+        }
+        button{
+            background-color: sandybrown;
+        }
+    </style>
+</head>
+<body>
+    <label for="text">Username: </label>
+    <input type="text" id="m">
+    <br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="o"><br><br>
+    <button onclick="
+    let c= (document.getElementById('m').value);
+    // let c1= parseInt(document.getElementById('n').value);
+    let c2=(document.getElementById('o').value);
+    console.log('Name:',c);
+    console.log('password:', c2);"
+    >Log In</button>
+</body>
+</html>

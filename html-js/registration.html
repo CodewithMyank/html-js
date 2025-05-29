@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightgrey;    
+        }
+        button{
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <label for="name">NAME:</label>
+    <input type="text" id="name">
+    <br><br>
+    <label for="email">EMAIL:</label>
+    <input type="email" id="email">
+    <br><br>
+    <label for="age">AGE:</label>
+    <input type="number" id="age">
+    <!-- <br><br>
+    <label for="genader">GENDER:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="male">Female</label>
+    <input type="radio"  id="other" name="gender" value="other">
+    <label for="male">Other</label> -->
+    <br><br>
+    <button onclick="
+    let c = document.getElementById('name').value;
+    let c1 = document.getElementById('email').value;
+    let c2=parseInt(document.getElementById('age').value);
+    // let c3=parseInt(document.getElementById(gender).value);
+    
+    console.log('NAME:', c);
+    console.log('EMAIL:', c1);
+    // console.log('GENDER:',c3);
+    console.log('AGE:', c2);
+    ">SUBMIT</button>
+</body>
+</html>

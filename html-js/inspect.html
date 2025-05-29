@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightgrey;
+        }
+        button{
+            background-color: cadetblue;
+        }
+
+    </style>
+</head>
+<script>
+    alert("Ohh Hi Mayank Sharma")
+</script>
+<body>
+    <label for="number" >first num: </label>
+    <input type="number" id="m"><br><br>
+    <label for="number" >second num: </label>
+    <input type="number" id="n"><br><br>
+
+
+    <button onclick="let a = parseInt(document.getElementById('m').value);
+    let b = parseInt(document.getElementById('n').value);
+
+    let sum=a+b;
+    let diff=a-b;
+    let product=a*b;
+    let divide=a/b;
+    console.log('ADD:',sum);
+    console.log('SUB:',diff);
+    console.log('MUL:',product);
+    console.log('DIV:',divide);
+
+    ">Calculate</button>
+
+</body>
+</html>
